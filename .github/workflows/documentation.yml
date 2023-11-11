@@ -20,12 +20,12 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd docusaurus-project
+          cd documentation--website
           npm install
 
       - name: Build Documentation
         run: |
-          cd docusaurus-project
+          cd documentation--website
           npm run build
 
       - name: Deploy to GitHub Pages
