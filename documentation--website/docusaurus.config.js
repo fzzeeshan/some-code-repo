@@ -13,15 +13,16 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://github.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/some-code-repo/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "fzzeeshan", // Usually your GitHub org/user name.
+  projectName: "some-code-repo", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -72,7 +73,7 @@ const config = {
             label: "Documentation",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/fzzeeshan/some-code-repo",
             label: "GitHub",
             position: "right",
           },
@@ -95,12 +96,12 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/fzzeeshan/some-code-repo",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}    Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
