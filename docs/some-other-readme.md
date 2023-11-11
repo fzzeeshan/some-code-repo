@@ -1,0 +1,20 @@
+# Some Other Page
+
+This is base page
+
+```
+{
+  "position": 2.5,
+  "label": "Tutorial",
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Tutorial overview"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
+```
